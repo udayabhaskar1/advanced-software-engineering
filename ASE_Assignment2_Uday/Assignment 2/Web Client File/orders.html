@@ -1,0 +1,261 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Untitled-5.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+  <meta charset="utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>KMart - Order Now</title>
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="script/jquery-3.1.0.js"></script>
+  <script src="script/common.js"></script>
+</head>
+
+<body>
+<header id = "kmart"> K-Market</header>
+
+<p id="Nav_Bar"><table width="1001" border="1" align="center" bordercolor="#F5E3F8" bgcolor="#D8D8D8">
+  <tbody>
+    <tr>
+    	  <td width="121"><a href="index.html">Home</a></td>
+        <td width="186"><a href="inventory.html">Inventory</a></td>
+        <td width="165"><a href="customer.html">Customer</a></td>
+        <td width="165"><a href="payment.html">FAQ</a></td>
+        <td width="216"><a href="orders.html">Ordering</a></td>
+        <td width="279"><a href="support.html">Support</a></td>
+    </tr>
+  </tbody>
+  </table>
+  </p>
+
+  <div class="orderform">
+      <h2 align="center">Order Form</h2>
+      <form>
+          <table id="ordertable" align="center">
+          <tbody>
+          <tr>
+          <td><label>Select Product(s):</label></td>
+          </tr>
+          <tr><td>
+              <table id="orderProducts" border="5" >
+                  <tr>
+              <td><label>Fiji Apples</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberb1">
+                  <option name="numberb1" value="0">0</option>
+                  <option name="numberb1" value="1">1</option>
+                  <option name="numberb1" value="2">2</option>
+                  <option name="numberb1" value="3">3</option>
+                  <option name="numberb1" value="4">4</option>
+                  <option name="numberb1" value="5">5</option>
+                  <option name="numberb1" value="6">6</option>
+                  <option name="numberb1" value="7">7</option>
+                  <option name="numberb1" value="8">8</option>
+                  <option name="numberb1" value="9">9</option>
+                  <option name="numberb1" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultb1"/></td>
+          </tr>
+          <tr>
+              <td><label>Australian Outback Oranges</label></td>
+              <td class="productPrice"><label>$14.99</label></td>
+              <td><select name="numberb2">
+                  <option name="numberb2" value="0">0</option>
+                  <option name="numberb2" value="1">1</option>
+                  <option name="numberb2" value="2">2</option>
+                  <option name="numberb2" value="3">3</option>
+                  <option name="numberb2" value="4">4</option>
+                  <option name="numberb2" value="5">5</option>
+                  <option name="numberb2" value="6">6</option>
+                  <option name="numberb2" value="7">7</option>
+                  <option name="numberb2" value="8">8</option>
+                  <option name="numberb2" value="9">9</option>
+                  <option name="numberb2" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultb2"/></td>
+          </tr>
+          <tr>
+              <td><label>Shiitake Mushrooms</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberb3">
+                  <option name="numberb3" value="0">0</option>
+                  <option name="numberb3" value="1">1</option>
+                  <option name="numberb3" value="2">2</option>
+                  <option name="numberb3" value="3">3</option>
+                  <option name="numberb3" value="4">4</option>
+                  <option name="numberb3" value="5">5</option>
+                  <option name="numberb3" value="6">6</option>
+                  <option name="numberb3" value="7">7</option>
+                  <option name="numberb3" value="8">8</option>
+                  <option name="numberb3" value="9">9</option>
+                  <option name="numberb3" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultb3"/></td>
+          </tr>
+          <tr>
+              <td><label>Organic Tomatoes</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberp1">
+                  <option name="numberp1" value="0">0</option>
+                  <option name="numberp1" value="1">1</option>
+                  <option name="numberp1" value="2">2</option>
+                  <option name="numberp1" value="3">3</option>
+                  <option name="numberp1" value="4">4</option>
+                  <option name="numberp1" value="5">5</option>
+                  <option name="numberp1" value="6">6</option>
+                  <option name="numberp1" value="7">7</option>
+                  <option name="numberp1" value="8">8</option>
+                  <option name="numberp1" value="9">9</option>
+                  <option name="numberp1" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultp1"/></td>
+          </tr>
+          <tr>
+              <td><label>Fresh Peeled Onions</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberp2">
+                  <option name="numberp2" value="0">0</option>
+                  <option name="numberp2" value="1">1</option>
+                  <option name="numberp2" value="2">2</option>
+                  <option name="numberp2" value="3">3</option>
+                  <option name="numberp2" value="4">4</option>
+                  <option name="numberp2" value="5">5</option>
+                  <option name="numberp2" value="6">6</option>
+                  <option name="numberp2" value="7">7</option>
+                  <option name="numberp2" value="8">8</option>
+                  <option name="numberp2" value="9">9</option>
+                  <option name="numberp2" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultp2"/></td>
+          </tr>
+          <tr>
+              <td><label>Organic Carrots</label></td>
+              <td class="productPrice"><label>$24.99</label></td>
+              <td><select name="numberp3">
+                  <option name="numberp3" value="0">0</option>
+                  <option name="numberp3" value="1">1</option>
+                  <option name="numberp3" value="2">2</option>
+                  <option name="numberp3" value="3">3</option>
+                  <option name="numberp3" value="4">4</option>
+                  <option name="numberp3" value="5">5</option>
+                  <option name="numberp3" value="5">6</option>
+                  <option name="numberp3" value="7">7</option>
+                  <option name="numberp3" value="8">8</option>
+                  <option name="numberp3" value="9">9</option>
+                  <option name="numberp3" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultp3"/></td>
+          </tr>
+          <tr>
+              <td><label>Green Crunch Lettuce</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberc1">
+                  <option name="numberc1" value="0">0</option>
+                  <option name="numberc1" value="1">1</option>
+                  <option name="numberc1" value="2">2</option>
+                  <option name="numberc1" value="3">3</option>
+                  <option name="numberc1" value="4">4</option>
+                  <option name="numberc1" value="5">5</option>
+                  <option name="numberc1" value="6">6</option>
+                  <option name="numberc1" value="7">7</option>
+                  <option name="numberc1" value="8">8</option>
+                  <option name="numberc1" value="9">9</option>
+                  <option name="numberc1" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultc1"/></td>
+          </tr>
+          <tr>
+              <td><label>Pickled Jalapenos</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+
+              <td><select name="numberc2">
+                  <option name="numberc2" value="0">0</option>
+                  <option name="numberc2" value="1">1</option>
+                  <option name="numberc2" value="2">2</option>
+                  <option name="numberc2" value="3">3</option>
+                  <option name="numberc2" value="4">4</option>
+                  <option name="numberc2" value="5">5</option>
+                  <option name="numberc2" value="6">6</option>
+                  <option name="numberc2" value="7">7</option>
+                  <option name="numberc2" value="8">8</option>
+                  <option name="numberc2" value="9">9</option>
+                  <option name="numberc2" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultc2"/></td>
+          </tr>
+          <tr>
+              <td><label>Red Plums</label></td>
+              <td class="productPrice"><label>$19.99</label></td>
+              <td><select name="numberc3">
+                  <option name="numberc3" value="0">0</option>
+                  <option name="numberc3" value="1">1</option>
+                  <option name="numberc3" value="2">2</option>
+                  <option name="numberc3" value="3">3</option>
+                  <option name="numberc3" value="4">4</option>
+                  <option name="numberc3" value="5">5</option>
+                  <option name="numberc3" value="6">6</option>
+                  <option name="numberc3" value="7">7</option>
+                  <option name="numberc3" value="8">8</option>
+                  <option name="numberc3" value="9">9</option>
+                  <option name="numberc3" value="10">10</option>
+              </select>
+                  <input  size="10" type="text" value="" class="result" id="resultc3"/></td>
+          </tr>
+          <tr>
+              <td><label>Total Price($):</label></td>
+              <td colspan="2"><input name="totalPrice" size="10" type="text" value="$0.00" id="totalPrice"/></td>
+          </tr>
+          </table>
+          </td>
+          </tr>
+          <tr>
+              <td>Restaurant Name*:</td>
+              <td><input type="text" size="30" id="fname" required/></td>
+          </tr>
+          <tr>
+              <td>Address Line 1:</td>
+              <td><input type="text" size="30" id="lname"></td>
+          </tr>
+          <tr>
+              <td>Address Line 2:</td>
+              <td><input type="text" size="30" id="lname"></td>
+          </tr>
+          <tr>
+              <td>Country:</td>
+              <td><input type="text" size="30" id="lname"></td>
+          </tr>
+          <tr>
+              <td>Postal Code:</td>
+              <td><input type="text" size="30" id="lname"></td>
+          </tr>
+          <tr>
+              <td><label>Payment Method*:</label></td>
+              <td><select id="paymentInfo" required>
+                  <option>Select an option...</option>
+                  <option value="CC">Credit Card</option>
+                  <option value="DB">Debit Card</option>
+                  <option value="PP">Paypal</option>
+              </select></td>
+          </tr>
+          <tr>
+              <td>E-mail Address*:</td>
+              <td><input name="email" size="30" type="email" id="email" required></td>
+          </tr>
+          <tr>
+              <td>Additional Comments:</td>
+              <td><textarea maxlength="100" rows="5" cols="31"></textarea></td>
+          </tr>
+          <tr>
+              <td><input name="reset" type="reset" id="reset"></td>
+              <td><input name="submit" type="submit" id="submit" formmethod="POST" value="Submit"></td>
+          </tr>
+          </tbody>
+      </table>
+      </form>
+      <p id="orderRequired" align="center">*All prices stated above indicative of product per 5 Kg.</p>
+      </div>
+
+</body>
+
+<!-- InstanceEnd --></html>
